@@ -18,8 +18,8 @@ data6 = np.loadtxt('Data6.csv', delimiter=',', skiprows=1)
 ListOfData = [data1, data2, data3, data4, data5, data6]
 def normalPlot(ListOfData):
     plt.figure(figsize=(10, 6))
-    plt.plot(data1[:, 0], data1[:, 1], label='Data1', marker='o')
-    plt.plot(data2[:, 0], data2[:, 1], label='Data2', marker='s')
+    plt.plot(data1[:, 0], data1[:, 1], label='Benzoic acid', marker='o')
+    plt.plot(data2[:, 0], data2[:, 1], label='Benzoic acid', marker='s')
     plt.plot(data3[:, 0], data3[:, 1], label='Data3', marker='^')
     plt.plot(data4[:, 0], data4[:, 1], label='Data4', marker='d')
     plt.plot(data5[:, 0], data5[:, 1], label='Data5', marker='x')
