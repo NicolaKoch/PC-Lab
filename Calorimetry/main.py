@@ -1,14 +1,14 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-#plot data from Data1 - Data3 
+#Import data
 data1 = np.loadtxt('Data1.csv', delimiter=',', skiprows=1)
 data2 = np.loadtxt('Data2.csv', delimiter=',', skiprows=1)
 data3 = np.loadtxt('Data3.csv', delimiter=',', skiprows=1)
 data4 = np.loadtxt('Data4.csv', delimiter=',', skiprows=1)
 data5 = np.loadtxt('Data5.csv', delimiter=',', skiprows=1)
 data6 = np.loadtxt('Data6.csv', delimiter=',', skiprows=1)
-
+# List of Datasets
 ListOfData = [data1, data2, data3, data4, data5, data6]
 def normalPlot(ListOfData):
     plt.figure(figsize=(10, 6))
