@@ -1,2 +1,6 @@
 # PC-Lab
-Repository containing files related to the Physical chemistry lab course
+Calorimetry
+
+-- Data 1-6 contains raw T/t data
+-- main.py contains functions for plotting T/t diagrams
+
