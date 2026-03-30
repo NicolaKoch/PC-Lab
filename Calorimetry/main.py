@@ -1,3 +1,9 @@
+# How it works:
+# 1. Load Data from CSV files
+# 2. Make List of Datasets
+# 3. Make 2 functions, one for normal plot and one for normalized plot
+# 4. Call the functiuons to display plots 
+
 import numpy as np
 import matplotlib.pyplot as plt
 
